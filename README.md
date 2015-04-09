@@ -1,7 +1,7 @@
 # PHP-script-wrapper-for-reddit
 A wrapper for reddit's API using the password grandtype
 
-This wrapper utilizes reddit's "password" grand_type to allow people to make cron driven scripts/bots. If you are looking for a wrapper to allows users to login to your script I reccomend looking in [/u/jcleblanc's php wrapper](https://github.com/jcleblanc/reddit-php-sdk). 
+This wrapper utilizes reddit's "password" grand_type to allow people to make cron driven scripts/bots. If you are looking for a wrapper to allows users to login to your script I recommend looking in [/u/jcleblanc's php wrapper](https://github.com/jcleblanc/reddit-php-sdk). 
 
 # Usage 
 
@@ -23,7 +23,7 @@ $reddit->submitComment('t3_IDGOESHERE', 'test');
 ?>
 ```
 
-When succesfull the wrapper will return a object containing both a header and body property. The header contains the return headers from curl, which allow you to implement rate limiting in a way you see fit. The body contains the json as returned by reddit converted to an object. 
+When successful the wrapper will return a object containing both a header and body property. The header contains the return headers from curl, which allow you to implement rate limiting in a way you see fit. The body contains the json as returned by reddit converted to an object. 
 
 In case of a failure on authentication level the wrapper will die.
 
@@ -74,6 +74,5 @@ Submit a comment, takes a fullname and comment content as input.
 ```php
 $reddit->submitComment('t3_IDGOESHERE', 'test');
 ```
-
 
 
