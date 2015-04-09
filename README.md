@@ -44,19 +44,19 @@ $reddit->getRaw('r/history.json');
 ## getMe
 
 ```php
-$reddit->getMe()
+$reddit->getMe();
 ```
 
 ## getMeKarma
 
 ```php
-$reddit->getMeKarma()
+$reddit->getMeKarma();
 ```
 
 ## getMePrefs
 
 ```php
-$reddit->getMePrefs()
+$reddit->getMePrefs();
 ```
 
 ## getListing
